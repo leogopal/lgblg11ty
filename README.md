@@ -1,11 +1,12 @@
 ![Eleventy](https://user-images.githubusercontent.com/2342458/230336594-86e2311a-3080-4d1c-9a01-03999a12136b.png)
 
-# Kinsta - Hello World - Eleventy
+# Leo Gopal's Blog - Eleventy
 
 An example of how to deploy an **Eleventy** application on Kinsta.
 
 ---
-Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it easier for you to share your web projects with your users. You can focus on coding and building, and we'll take care of deployments with fast, scalable hosting. 
+
+Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it easier for you to share your web projects with your users. You can focus on coding and building, and we'll take care of deployments with fast, scalable hosting.
 
 At Kinsta, Static Sites are free, and you can host up to 100 sites on your account for completely free.
 
@@ -19,9 +20,10 @@ If you only have a Static Site Hosting account, we have detailed [Static Site Ho
 - [Static Site Hosting](https://kinsta.com/static-site-hosting)
 
 ## Setup
+
 <details>
 <summary><strong>Static Site Hosting</strong> [click to expand]</summary>
-	
+
 ### Dependency Management
 
 Kinsta automatically installs dependencies defined in your `package.json` file during the deployment process.
@@ -29,15 +31,16 @@ Kinsta automatically installs dependencies defined in your `package.json` file d
 ### Setting the Build Command, Node version, and Publish directory
 
 After connecting the repository, **Static Site Hosting** will automatically try to populate all the fields with the correct values.
-| Configuration option |Value     |
+| Configuration option |Value |
 |---|---|
 | Build command | `npx @11ty/eleventy` |
-| Node version  |  16.20  |
-| Publish directory | `_site`  |
+| Node version | 16.20 |
+| Publish directory | `_site` |
 
 ### Deployment Lifecycle
 
 Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit), the build command is run, followed by the deployment of the Publish Directory content.
+
 </details>
 
 <details>
@@ -58,7 +61,9 @@ When deploying an application, Kinsta automatically creates a web process with `
 ## Deployment Lifecycle
 
 Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit) the `npm build` command is run, followed by the `npm start` command.
+
 </details>
 
 ## What is Eleventy
+
 Eleventy is a JavaScript-based static site generator that makes it easy for developers to create fast, modern, and customizable websites. More information is available on the [11ty.dev](https://www.11ty.dev/) website.

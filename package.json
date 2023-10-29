@@ -1,7 +1,7 @@
 {
-	"name": "eleventy-base-blog",
+	"name": "eleventy-leogopal-blog",
 	"version": "8.0.0",
-	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"description": "A starter repository for a leo gopal's blog web site using the Eleventy site generator.",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"start": "serve ./_site",
@@ -12,12 +12,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/11ty/eleventy-base-blog.git"
+		"url": "git://github.com/leogopal/lgblg11ty.git"
 	},
 	"author": {
-		"name": "Zach Leatherman",
-		"email": "zachleatherman@gmail.com",
-		"url": "https://zachleat.com/"
+		"name": "Leo Gopal",
+		"email": "leo@leogopal.com",
+		"url": "https://leogopal.com/"
 	},
 	"license": "MIT",
 	"engines": {
@@ -28,9 +28,9 @@
 		"url": "https://opencollective.com/11ty"
 	},
 	"bugs": {
-		"url": "https://github.com/11ty/eleventy-base-blog/issues"
+		"url": "https://github.com/leogopal/lgblg11ty/issues"
 	},
-	"homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+	"homepage": "https://github.com/leogopal/lgblg11ty#readme",
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.0",
 		"@11ty/eleventy-img": "^3.0.0",
